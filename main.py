@@ -47,4 +47,3 @@ sec = Security({'expiry': 1761826998, "call": ["write"]}, secret='J7XONYZOC5AL3M
 createdFile = Filelink('24HbcuyuQ7SRSAbCQQxB')
 
 createdFile.overwrite(filepath='universitySchedule.ics',security=sec)
-print(createdFile.url)
